@@ -10,7 +10,7 @@ import { industryCards } from '../../Utils/Data/InduistryCards';
 
 const IndustryCardSwipper = () => {
   return (
-    <div className="relative w-full max-w-7xl mx-auto py-12 px-4 bg-gray-50 rounded-lg shadow-inner my-8">
+    <div className="swiperslider-fides">
         <h2 className="outfit fidespath-mainheader consutinghrad">Your Industry-Specific Software Partner</h2>
         <p className=" fidespath-paragraph sanserif swprpara">
       While FidesPath possesses expertise across various software development domains,
@@ -32,7 +32,7 @@ we also delve deeper by focusing on specific industries.
           },
 
           768: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 30,
           },
           1024: {

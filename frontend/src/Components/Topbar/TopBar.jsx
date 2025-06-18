@@ -1,5 +1,6 @@
 import React from "react";
 import loctiontobar from '../../assets/exactlocation.png'
+import email from '../../assets/mail-16.png'
 import "./TopBar.css";
 const TopBar = () => {
   return (
@@ -16,7 +17,7 @@ const TopBar = () => {
           </li>
         </ul>
         <div className="fidespath-topbar-mail">
-            <img src={loctiontobar} alt="" />
+            <img src={email} alt="" />
             <div className="fidespath-topbar-mail-text"><a href="mailto:contactus@fidespath.com">contactus@fidespath.com</a></div>
         </div>
       </div>

@@ -86,3 +86,60 @@
 }
 }
 
+
+/* HOME RESPONSIVE */
+/* Tablets, iPads (portrait and landscape) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .fidesmain-banner-image{
+    width: 760px;
+  }
+  .fidesmain-banner{
+    margin-top: -140px;
+  }
+  .fidesmain-banner-container{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: left;
+    margin: -100px 24px 30px;
+  }
+
+  .swiperslider-fides{
+    display: none;
+  }
+  .fidesmain-banner-header{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .fidesoffshore-consulting-container{
+    flex-direction: column-reverse;
+  }
+  .fidesoffshore-consulting-image{
+    margin: 30px auto;
+  }
+  .fidespathcconsulting-crads{
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .fidesexpert-team{
+     margin: 30px;
+  }
+  .fidesexpert-team-image{
+    display: none;
+}
+
+
+
+.fidesfooter-wrapper{
+  flex-direction: column;
+}
+.fidesoffshore-consulting{
+  margin-top: -34%;
+}
+.fidesoffshore-consulting-button{
+  margin: 0 auto;
+}
+
+}
+
+

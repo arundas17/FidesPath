@@ -162,6 +162,7 @@
     margin: 0 auto;
     }
     
+    
 }
 
 @media only screen and (min-width: 601px) {
@@ -178,6 +179,18 @@
     max-width: 100%;
     height: auto;
     display: block; 
+}
+
+
+@media only screen and (max-width: 600px) {
+   .fidesmain-mobile-banner .fidesmain-banner-header{
+      text-align: center;
+      margin: 30px auto;
+    }
+    .fidesmain-mobile-banner  .fidesmain-banner-paragraph{
+              text-align: center;
+               margin: 20px auto;
+          }
 }
 
 

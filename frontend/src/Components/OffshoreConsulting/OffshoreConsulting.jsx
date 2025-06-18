@@ -1,6 +1,6 @@
 import React from 'react'
 import offshoreimage from '../../assets/offshoreimage.png'
-import './OffshoreConsulting.css'
+import './OffShoreConsulting.css'
 const OffshoreConsulting = () => {
   return (  
     <div className='fidesoffshore-consulting'>

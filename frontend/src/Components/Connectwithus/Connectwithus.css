@@ -1,0 +1,50 @@
+   
+   
+.fidesconnect-with-us{
+   background-color:var(--color-containerbgDark);
+   color: var(--color-whitetexttitle);
+   margin-bottom: 80px;
+}
+   .fidesconnect-with-us-title{
+    font-size: 48px;
+    line-height: 63px;
+    font-weight: 700;
+    margin-bottom: 15px;
+   }
+   .fidesconnect-with-us-button{
+    background: var(--color-containerbg);
+    color: var(--color-whitetexttitle);
+    border:  none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 auto;
+    display: flex;
+    padding: 18px 24px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease-out 0s;
+    overflow: hidden;
+}
+.fidesconnect-with-us-container{
+       padding: 112px 0;
+}
+.fidesconnect-with-us-title{
+    text-align: center;
+    padding: 0 11%;
+}
+
+
+@media only screen and (max-width: 600px){
+.fidesconnect-with-us-title {
+    font-size: 23px;
+    line-height: 63px;
+    font-weight: 700;
+    line-height: 2;
+    margin-bottom: 15px;
+}
+}
+

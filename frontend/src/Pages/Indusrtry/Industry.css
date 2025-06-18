@@ -1,0 +1,71 @@
+.Aboutus-container{
+    max-width: 1250px;
+    margin-right: 110px;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.fidesaboutcards {
+   
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.fidesaboutcards img{
+    width: 420px;
+    height: 350px;
+    border-radius: 15px;
+    margin-left: 65px;
+    box-shadow: 5px 6px 13px #dad4d4;
+
+}
+.fidesindustrymessage{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 70px;
+}
+.fidesindustrymessage .fidespath-paragraph {
+text-align: center;
+}
+.fidesaboutuswrapper{
+    margin-bottom: 50px;
+}
+.splpara{
+    color: black;
+    font-family: 'Outfit';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.industryhealthcare  .specilaity li{
+ margin-left: 30px;
+}
+
+.industryhealthcare  .specilaity li .fidespath-paragraph {
+  font-size: 16px;
+ }
+
+.indystry-para{
+    width: 56%;
+}
+@media only screen and (max-width: 600px){
+    .indystry-para{
+    width: 100%;
+    }
+ .Aboutus-container{
+    max-width: 1250px;
+    margin: 10px;
+ }
+ .industry .fidesaboutuswrapper{
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ .industry   .fidesaboutcards img {
+    margin-left: 0;
+ }
+     
+}
+
+ 
+ 

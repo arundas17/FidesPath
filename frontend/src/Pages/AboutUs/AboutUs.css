@@ -1,0 +1,109 @@
+.mainaboutus-container{
+    max-width: 1250px;
+    margin-right: 110px;
+    margin-left: 270px;
+    margin-bottom: 60px;
+    margin-top: 120px;
+}
+.serviceitemimage{
+    width: 194px;
+    height: 63px;
+}
+.serviceitemimage img{
+    width: 100%;
+    height: 100%;
+}
+.fidesmainaboutus-services .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px
+}
+.fidesmainaboutus-services{
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+.seviceitem{
+    display: flex;
+    box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    padding: 10px;
+    justify-content: center;
+    width: 33.33%;
+    max-width: 356px;
+}
+.specialityitems{
+    display:flex;
+}
+.guidemessage{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.fidesaboutus-overal{
+    margin-bottom: 60px;
+}
+.aboutheader{
+margin: 0 auto;
+width: 36%;
+}
+.aboutpara{
+width: 73%;
+margin: 0 auto;
+text-align: center;
+}
+@media only screen and (max-width: 600px) {
+   .carddetailsaboutus{
+    margin-top:45px ;
+   }
+  .mainaboutus-container {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.fidesmainaboutus-services .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.seviceitem {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.aboutheader {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.aboutpara{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+    
+
+.fidesaboutcards img{
+  width: 350px !important;
+  white-space: 300px !important;
+  margin-left: 0 !important;
+}
+.fidesaboutcards{
+    flex-direction: column-reverse;
+    padding:0 !important;
+}
+.specialityitems{
+    flex-direction: column;
+}
+.guidemessage{
+    width: 100%;
+}
+.mainaboutus-detailedreview li{
+    margin-left:  10px;
+}
+}

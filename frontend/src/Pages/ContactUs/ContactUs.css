@@ -1,0 +1,215 @@
+.fidespath-contact-page-wrapper{
+    max-width: 1250px;
+    margin-right: 110px;
+    margin-left: 200px;
+    display: flex;
+    gap:50px;
+    margin-top:80px;
+    margin-bottom:80px;
+    }
+
+
+
+.form-container {
+    background-color: var( --color-formBg);  
+    padding: 32px; 
+    border-radius: 16px; 
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Custom shadow */
+    width: 100%; 
+    max-width: 900px; 
+    border: 1px solid #bbdefb; 
+}
+.fidespath-contact-page-wrapper  .seviceitem{
+    box-shadow: none !important;
+}
+.fides-conatctpagedetails{
+    width: 40%;
+}
+.fidespath-contact-page-wrapper .wrapper{
+    flex-direction: column;
+}
+.fidespath-contact-page-wrapper .seviceitem{
+ width: 100%;
+ justify-content: flex-start;
+}
+.fidespath-contact-page-wrapper .serviceitemimage{
+    width: 51px;
+    height: 47px;
+}
+
+
+@media (min-width: 768px) { 
+    .form-container {
+        padding: 40px; 
+        width: 75%; 
+    }
+}
+@media (min-width: 1024px) { 
+    .form-container {
+        max-width: 700px; 
+    }
+}
+
+
+h1 {
+    font-size: 2.25rem; 
+    line-height: 2.5rem; 
+    font-weight: 600; 
+    color: #1d4ed8; 
+    margin-bottom: 16px; 
+}
+@media (min-width: 768px) { 
+    h1 {
+        font-size: 2.5rem; 
+        line-height: 1; 
+    }
+}
+
+p {
+    color: rgba(30, 58, 138, 0.8); 
+    margin-bottom: 32px; 
+    line-height: 1.625; 
+}
+
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 16px; 
+    margin-bottom: 16px; 
+}
+@media (min-width: 768px) {
+    .form-grid.grid-cols-3 { 
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .form-grid.grid-cols-2 { 
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    background: var(--color-whitetexttitle);
+    border: 1px solid var(--color-whitetexttitle);
+    border-radius: 8px;
+    padding: 14px 15px;
+    font-size: 15px;
+    color: var(--color-formtext);
+    height: 50px;
+}
+input::placeholder,
+textarea::placeholder {
+    color: var(--color-mainparagraph); 
+    opacity: 0.6; 
+}
+input:focus,
+textarea:focus {
+    border-color: var(--color-mainparagraph); 
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); 
+}
+textarea {
+    min-height: 120px; 
+    resize: vertical; 
+    margin-bottom: 24px; 
+    color: var(--color-formtext);
+    height: 50px;
+
+}
+
+
+.captcha-code-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    gap: 8px; 
+}
+@media (min-width: 768px) { 
+    .captcha-code-wrapper {
+        justify-content: flex-start; 
+    }
+}
+
+.form-container .captcha-code {
+    background-color: var( --color-formBg); 
+    color: var(--color-mainparagraph); 
+    font-weight: 700; 
+    font-size: 1.25rem; 
+    padding: 8px 16px; 
+    border-radius: 8px; 
+    border: 1px solid var(--color-formBg);
+    user-select: none; 
+    display: inline-block; 
+}
+
+.form-container .refresh-icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-mainparagraph); 
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out; 
+    padding: 0; 
+    line-height: 1; 
+}
+.form-container .refresh-icon-button:hover {
+    color: #1d4ed8;                                                                                    
+    transform: rotate(30deg); 
+}
+.form-container .refresh-icon-button svg {
+    width: 15px;
+    height: 20px;
+}
+
+
+.form-container button[type="submit"] {
+    background: var(--color-containerbg);
+    color: var(--color-whitetexttitle);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    padding: 18px 24px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease-out 0s;
+    overflow: hidden;
+}
+.form-container button[type="submit"]:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+    opacity:0.8
+}
+.form-container button[type="submit"]:focus {
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); 
+    outline: none;
+}
+
+
+@media only screen and (max-width: 600px){
+    .fidespath-contact-page-wrapper {
+    max-width: 1250px;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    flex-direction: column;
+    margin: 20px;
+}
+.fides-conatctpagedetails{
+    width: 100%;
+}
+.fidespath-contact-page-wrapper .fidesmainaboutus-services{
+ 
+    margin-bottom: 0px;
+    margin-top: 30px;
+
+}
+.captcha-code-wrapper{
+    justify-content: center;
+}
+}

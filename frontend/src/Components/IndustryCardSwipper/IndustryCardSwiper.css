@@ -1,0 +1,58 @@
+.fidespath-industry-card-swipper{
+    max-width: 1268px !important;
+    margin: 0 auto !important;
+}
+.swprpara{
+    width: 43%;
+    margin: 29px auto 40px;
+    text-align: center;
+}
+.swipper-button{
+   background: var(--color-containerbg);
+    color: var(--color-whitetexttitle);
+    border:  none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    padding: 15px 24px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease-out 0s;
+    overflow: hidden;
+}  
+.engage{
+    display: flex;
+    align-items: baseline;
+    margin: 70px 0;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+ .fidespath-industry-card-swipper .consutinghrad {
+    width: 82%;
+    text-align: center;
+}
+.swprpara{
+    width: 100%;
+    text-align: center;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+

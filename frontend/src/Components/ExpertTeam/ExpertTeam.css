@@ -1,0 +1,42 @@
+.fidesexpert-team{
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    min-height: 200px;
+    margin-bottom: 80px;
+}
+.fidesexpert-team-details{
+     background: var(--color-containerbg);
+    padding: 70px 65px;
+}   
+.fidesexpert-team-title{
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #fff;
+}
+.fidesexpert-team-description{
+   color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+.fidesexpert-team-image{
+    min-height: 200px;
+}
+.fidesexpert-team-image img{
+ height: 100%;
+}
+
+
+@media only screen and (max-width: 600px){
+    .fidesexpert-team-image{
+    display: none;
+}
+.fidesexpert-team-details{
+    margin: 16px;
+    padding: 20px 20px;
+    border-radius: 15px;
+}
+}
+
+

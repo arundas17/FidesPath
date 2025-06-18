@@ -1,0 +1,183 @@
+
+.fidesmain-banner-container {
+    width: 60%;
+    position: absolute;
+    padding: 63px 324px 20px 0px;
+    margin-top: -11%;
+    margin-left: -23%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.fidesmain-banner-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.fidesmain-banner-image img {
+    width: 100%;
+    margin-top: -160px; 
+    position: relative;
+    z-index: -2;
+    display: flex; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+}
+
+
+.fidesmain-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: -81px;
+}
+
+.fidesmain-mobile-banner {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+    text-align: center; 
+    background-color: #e0f2fe;
+    width: 100%; 
+    box-sizing: border-box;
+    min-height: 576px; 
+    justify-content: center; 
+}
+.fidesmainbannersubheader  {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    display: block;
+    line-height: '1';
+    color: var(--color-themeyellow);
+    margin-bottom: 15px
+}
+
+.fidesmain-mobile-banner .fidesmain-banner-image {
+    width: 90%; 
+    max-width: 300px; 
+    margin-bottom: 20px; 
+}
+
+.fidesmain-mobile-banner .fidesmain-banner-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+    margin-top: 0;
+    position: static;
+    z-index: auto;
+}
+
+.fidesmain-mobile-banner .fidesmain-banner-container {
+    width: 100%; 
+    padding: 0 15px; 
+    margin-top: 0; 
+    text-align: center; 
+}
+
+
+.fidesmain-mobile-banner .fidesmainbannersubheader {
+    font-size: 13px;
+    margin-bottom: 8px; 
+}
+
+.fidesmain-mobile-banner .fidesmain-banner-header {
+    font-size: 1.8rem; 
+    margin-bottom: 12px;
+    line-height: 1.3;
+}
+
+.fidesmain-mobile-banner .fidesmain-banner-paragraph {
+    font-size: 0.9rem; 
+    margin-bottom: 15px;
+}
+
+.fidesmain-mobile-banner .fidesmain-banner-button {
+    padding: 10px 20px; 
+    font-size: 0.9rem;
+}
+
+.fidesbanner-button{
+    background: var(--color-containerbg);
+    color: var(--color-whitetexttitle);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    padding: 14px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease-out 0s;
+    overflow: hidden;
+}
+
+.fidesmain-mobile-banner{
+   background-image: url(../../assets/fidesbannerimage.png); 
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .fidesmain-banner {
+        display: none;
+    }
+   
+    .fidespath-main-navbar-wrapper {
+        display: none;
+    }
+    .fidesmain-banner-container{
+        margin-left: 0;
+    }
+    .fidesmainbannersubheader{
+        text-align: center;
+    }
+    .fidesmain-mobile-banner .fidesmain-banner-button{
+    background: var(--color-containerbg);
+    color: var(--color-whitetexttitle);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    padding: 18px 24px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease-out 0s;
+    overflow: hidden;
+    margin: 0 auto;
+    }
+    
+}
+
+@media only screen and (min-width: 601px) {
+    
+    .fidesmain-mobile-banner {
+        display: none;
+    }
+    
+}
+
+
+.fidesmain-banner-image img,
+.fidesmain-mobile-banner .fidesmain-banner-image img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+}
+
+

@@ -1,0 +1,347 @@
+.fidespath-main-navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 0;
+    position: relative; 
+    z-index: 1000; 
+}
+.fidesmain-banner-container .fidesmain-banner-paragraph{
+    line-height: 1.3;
+    width: 75%;
+}
+.fidesmain-banner-container .fidespath-mainheader{
+ width: 84%;
+ line-height: 1.3;
+}
+.fidesmainbannersubheader{
+    font-size: 18px !important;
+}
+.fidesmain-banner-container{
+    line-height: 1.3;
+}
+.fidespath-container {
+    width: 100%;
+    padding: 0 18px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.fidesLogo {
+    width: 300px;
+    z-index: 101;
+}
+
+.fidespath-main-navbar-wrapper {
+    display: flex; 
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.fidespath-main-navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 60px;
+}
+
+.fidespath-main-navbar-wrapper li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 700;
+    position: relative;
+    z-index: 100;
+}
+
+.fidespath-main-navbar-link a {
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 42px 0px;
+    display: block;
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+    color: var(--bg-primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.fidespath-main-navbar-link a:hover {
+    color: var(--color-themeyellow);
+}
+
+.fidespath-main-navbar-link.dropdown .dropdown-toggle,
+.mobile-menu-link.dropdown .dropdown-toggle-mobile { 
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--bg-primary);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.dropdown-arrow {
+    font-size: 0.7em;
+    transition: transform 0.3s ease-in-out;
+    vertical-align: middle;
+    margin-left: 5px;
+    color: #000; 
+}
+
+.dropdown-arrow.rotate {
+    transform: rotate(180deg);
+}
+
+
+.fidespath-main-navbar-link.dropdown .dropdown-menu {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    min-width: 200px;
+    z-index: 1001;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    opacity: 1; 
+    visibility: visible; 
+    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.dropdown-menu li {
+    padding: 0;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-transform: none;
+}
+
+.dropdown-menu li a {
+    padding: 10px 20px;
+    display: block;
+    color: #555;
+    text-decoration: none;
+    line-height: normal;
+    position: static;
+    z-index: auto;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f0f0f0;
+    color: va(--color-themeyellow);
+}
+
+
+.hamburger-menu-icon {
+    display: none; 
+    font-size: 20px; 
+    cursor: pointer;
+    color: var( --bg-primary); 
+    z-index: 1100; 
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -300px; 
+    width: 300px; 
+    height: 100%;
+    background-color: white; 
+    box-shadow: -5px 0 15px rgba(0,0,0,0.2); 
+    transition: right 0.3s ease-in-out; 
+    z-index: 1050; 
+    padding-top: 80px; 
+    overflow-y: auto; 
+}
+
+.mobile-menu.open {
+    right: 0; 
+}
+
+.mobile-menu-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.mobile-menu-link {
+    padding: 15px 25px; 
+    border-bottom: 1px solid #eee; 
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: #333;
+    cursor: pointer;
+}
+
+.mobile-menu-link:last-child {
+    border-bottom: none;
+}
+
+.mobile-menu-link a {
+    text-decoration: none;
+    color: #333;
+    display: block; 
+    transition: color 0.2s ease;
+}
+
+.mobile-menu-link a:hover {
+    color: var(--color-themeyellow);
+}
+
+
+
+.dropdown-toggle-mobile {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+.dropdown-menu-mobile {
+    list-style: none;
+    padding: 0 0 0 20px; /* Indent sub-items */
+    margin: 10px 0 0 0; /* Space above sub-items */
+    background-color: #f9f9f9; /* Slightly different background for sub-menu */
+    border-top: 1px solid #eee;
+    overflow: hidden; /* Hide overflow for slide animation */
+    max-height: 0; /* Start hidden for animation */
+    transition: max-height 0.3s ease-in-out;
+}
+
+.mobile-menu-link.dropdown.dropdown-open .dropdown-menu-mobile {
+    max-height: 200px; 
+}
+
+.dropdown-menu-mobile li {
+    padding: 8px 0; 
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dropdown-menu-mobile li a {
+    color: #666;
+}
+
+
+@media only screen and (max-width: 768px) { 
+   
+    .fidespath-main-navbar-wrapper {
+        display: none; 
+    }
+    .hamburger-menu-icon {
+        display: block; 
+    }
+
+    .fidesLogo {
+        width: 200px; 
+    }
+
+    .fidespath-container {
+        padding: 10px 18px; 
+    }
+}
+
+
+
+@media only screen and (min-width: 769px) { 
+    .hamburger-menu-icon {
+        display: none;
+    }
+    .mobile-menu {
+        display: none; 
+    }
+    .fidespath-main-navbar-wrapper {
+        display: flex;
+    }
+}
+
+
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+
+
+
+
+
+
+
+
+.fidesmain-banner-container h5,
+.fidesmain-banner-container .fidesmain-banner-header,
+.fidesmain-banner-container p,
+.fidesmain-banner-container button {
+    opacity: 0; 
+}
+
+
+@media only screen and (min-width: 601px) { 
+    .fidesmain-banner-container h5 {
+        animation: slideUp 0.7s ease-out forwards;
+        animation-delay: 0.2s;
+    }
+    .fidesmain-banner-container .fidesmain-banner-header {
+        animation: slideUp 0.7s ease-out forwards;
+        animation-delay: 0.4s;
+    }
+    .fidesmain-banner-container p {
+        animation: slideUp 0.7s ease-out forwards;
+        animation-delay: 0.6s;
+    }
+    .fidesmain-banner-container button {
+        animation: slideUp 0.7s ease-out forwards;
+        animation-delay: 0.8s;
+    }
+
+    .fidesmain-mobile-banner {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 600px) { 
+    
+    .fidesmain-banner {
+        display: none;
+    }
+    
+    .fidesmain-mobile-banner .fidesmainbannersubheader,
+    .fidesmain-mobile-banner .fidesmain-banner-header,
+    .fidesmain-mobile-banner .fidesmain-banner-paragraph,
+    .fidesmain-mobile-banner .fidesmain-banner-button {
+        animation: none; 
+        opacity: 1;      
+        transform: translateY(0); 
+    }
+   
+}

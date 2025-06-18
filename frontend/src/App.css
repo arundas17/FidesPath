@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: left;
+
+}
+
+:root {
+  --color-primary: #1976d2;
+  --color-containerbg:#5c90d0;
+  --color-containerbgDark:#54556b;
+  --color-secondary: #E6EEFF;
+  --color-background: #f5f5f5;
+  --color-whitetexttitle: #ffffff;
+  --bg-primary:#2e6ab3;
+  --color-mainparagraph:#3E4073;
+  --color-bannerparagraph:#383952;
+  --color-formtext:#191D88;
+  --color-formBg:#c3daf6;
+  --color-faddedbutton:#6c96c961;
+  --color-themeyellow: #F7A400;
+  --color-dropdown:#14176C; 
+
+;
+
+}
+.fidespath{
+  margin: 0;
+  padding: 0;
+}
+.fidespath-common-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+.fidespath-mainheader{
+  margin-bottom: 0;
+  font-size: 40px;
+  color: var(--bg-primary);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.fidespath-paragraph{
+  color: var(--color-mainparagraph);
+  font-size: 16px;
+  margin-bottom: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.fidesmain-banner-paragraph{
+  color: var( --color-bannerparagraph);
+  font-size: 16px;
+  margin-bottom: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.industry-card-icon {
+    margin-left: 10px;
+    width: 29px !important;
+    height: 27px !important;
+}
+.fidespathconsulting-card-button,.fidesoffshore-consulting-button{
+  padding: 10px 20px;
+}
+.fidesconnect-with-us-button {
+  padding: 12px 20px;
+}
+.fidespath-container{
+  display: flex !important;
+}
+.fidespath-container{
+  background: none;
+  box-shadow: none;
+}
+@media only screen and (max-width: 600px) {
+ .fidespath-mainheader{
+  font-size: 30px ;
+}
+.fidespath-common-container{
+  padding:20px;
+}
+}
+

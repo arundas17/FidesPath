@@ -1,0 +1,48 @@
+.fidesoffshore-consulting{
+   padding: 30px 48px;
+    margin-top: -3%;
+}
+.fidesoffshore-consulting-container{
+display: flex;
+}
+.fidesoffshore-consulting-image img{
+    border-radius: 15px;
+}
+.fidesoffshore-consulting-details{
+        margin-left: 30px;
+}
+.fidesoffshore-consulting-button{
+    background: var(--color-containerbg) ;
+    color: var(--color-whitetexttitle);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    padding: 18px 24px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease-out 0s;
+    overflow: hidden;
+
+}
+@media only screen and (max-width: 600px) {
+  .fidesoffshore-consulting {
+    padding: 30px 0px;
+    margin-top: -3%;
+}
+  .fidesoffshore-consulting-container{
+    flex-direction: column-reverse;
+  }
+  .fidesoffshore-consulting-image{
+    margin-top: 30px;
+  }
+  .fidesoffshore-consulting-image img{
+    width: 339px;
+    margin: 0px 20px
+  }
+   
+}

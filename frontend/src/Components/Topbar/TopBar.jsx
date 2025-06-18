@@ -17,7 +17,7 @@ const TopBar = () => {
           </li>
         </ul>
         <div className="fidespath-topbar-mail">
-            <img src={email} alt="" />
+            <img src={loctiontobar} alt="" />
             <div className="fidespath-topbar-mail-text"><a href="mailto:contactus@fidespath.com">contactus@fidespath.com</a></div>
         </div>
       </div>

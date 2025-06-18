@@ -8,7 +8,7 @@ import React from "react";
 import "./Home.css"; // Keep page-specific CSS
 import ExpertTeam from "../../Components/ExpertTeam/ExpertTeam";
 import Connectwoithus from "../../Components/Connectwithus/Connectwoithus";
-import IndustryCardSwipper from "../../Components/IndustryCardSWipper/IndustryCardSwipper";
+import IndustryCardSwipper from "../../Components/IndustryCardSwipper/IndustryCardSwipper";
 import OffshoreConsulting from "../../Components/OffshoreConsulting/OffshoreConsulting";
 import ConsultingSolutions from "../../Components/ConsutingSolutions/ConsultingSolutions";
 import MainBanner from "../../Components/MainBanner/MainBanner";
